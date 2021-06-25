@@ -17,7 +17,7 @@ stanza nei prossimi X minuti) e del valore dei sensori ambientali. I valori
 della previsione devono di nuovo essere memorizzati in INFLUX.
 * Prevedere meccanismi di alterting nel caso in cui vengano rilevate le
 seguenti situazioni di allarme: 
-  * il numero di utenti e maggiore di una
+  * il numero di utenti è maggiore di una
 soglia prestabilita;
   * i valori di temperatura/umidità/pressione sono
 superiori/inferiori a soglie di riferimento. Le notifche di allarme sono in-
