@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+    influxdb:
+      image: quay.io/influxdb/influxdb:v2.0.4
+      volumes:
+         - ./influxdb:/home/cristian/projectiot
+      ports:
+         - "8086:8086"
+
+    grafana:
+      image: grafana/grafana:7.4.2
+      volumes:
+          - ./grafana-storage:/var/lib/grafana
+      ports:
+         - "3000:3000"
+      user: "0"
